@@ -1,23 +1,25 @@
 {
-  "name": "syno-tools",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "packageManager": "pnpm@10.10.0",
-  "dependencies": {
-    "@types/node": "^22.15.3",
-    "dotenv": "^16.5.0",
-    "exiftool-vendored": "^29.3.0",
-    "tsx": "^4.19.4",
-    "typescript": "^5.8.3"
-  },
-  "devDependencies": {
-    "prettier": "^3.5.3"
-  }
+    "name": "syno-tools",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "set_exif": "tsx set_exif.ts"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "packageManager": "pnpm@10.10.0",
+    "dependencies": {
+        "@types/node": "^22.15.3",
+        "date-fns": "^4.1.0",
+        "dotenv": "^16.5.0",
+        "exiftool-vendored": "^29.3.0",
+        "glob": "^11.0.2",
+        "tsx": "^4.19.4",
+        "typescript": "^5.8.3"
+    },
+    "devDependencies": {
+        "prettier": "^3.5.3"
+    }
 }
