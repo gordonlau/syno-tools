@@ -4,7 +4,7 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-        "set_exif": "tsx set_exif.ts"
+        "set_exif": "tsx src/set_exif.ts"
     },
     "keywords": [],
     "author": "",
