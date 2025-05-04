@@ -10,7 +10,7 @@ dotenv.config();
 async function main() {
     const workingDirectory = process.env.WORKING_DIRECTORY + '';
     const files = await glob(
-        path.join(workingDirectory, '**/IMG-*-WA*.{jpg, jpeg}'),
+        path.join(workingDirectory, '**/IMG-*-WA*.{jpg,jpeg}'),
     );
 
     for (const file of files) {
